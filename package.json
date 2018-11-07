@@ -1,0 +1,23 @@
+{
+  "name": "segmentedcode",
+  "version": "1.0.0",
+  "description": "Segemented Code Imports POC",
+  "private": true,
+  "scripts": {
+    "start": "node script-compiled.js",
+    "babel": "babel src/main.js --out-file script-compiled.js",
+    "test": "test",
+    "webpack": "webpack"
+  },
+  "author": "Michael Lynch",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.5",
+    "@babel/core": "^7.1.5",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.1.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.0.0"
+  }
+}
