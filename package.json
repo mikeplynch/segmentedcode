@@ -18,5 +18,9 @@
   },
   "dependencies": {
     "@babel/polyfill": "^7.0.0"
+  },
+  "babel": {
+    "presets": ["@babel/env"],
+    "plugins": ["@babel/plugin-syntax-dynamic-import"]
   }
 }
