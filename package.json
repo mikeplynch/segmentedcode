@@ -6,8 +6,7 @@
   "scripts": {
     "start": "node script-compiled.js",
     "babel": "babel src/main.js --out-file script-compiled.js",
-    "test": "test",
-    "webpack": "webpack"
+    "test": "test"
   },
   "author": "Michael Lynch",
   "license": "MIT",
